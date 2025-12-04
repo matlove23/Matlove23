@@ -1,0 +1,50 @@
+---
+title: "index.qmd"
+author: "Matlove23"
+format: docx
+editor: visual
+---
+
+title: "My Data Analysis Report" format: html ---
+
+## Analysis Goals
+
+In this project, my goal is to analyse the uploaded dataset to understand key patterns and insights. Specifically, I aim to identify trends, make comparisons, generate visualisations, and answer the main research questions related to the data.
+
+## Description of the Data
+
+## The data I have uploaded contains information about \[brief description\]. It includes variables such as \[list important variables\]. The dataset will be used for cleaning, exploration, visualisation, and statistical analysis throughout this report.
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+library(tidyverse)
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Load data
+raw_data <- read_csv(here::here("data/raw/unhcrwash.csv"))
+`
+
+
+```
